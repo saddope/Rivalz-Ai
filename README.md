@@ -1,7 +1,3 @@
-Вот финальный текст для файла `README.md`, который вы можете скопировать и вставить:
-
----
-
 # Rivalz AI Client CLI Guide
 
 ## Hardware Requirements
