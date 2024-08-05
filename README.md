@@ -1,14 +1,17 @@
-Rivalz AI Client CLI Guide
-Hardware Requirements
-CPU: 4 Cores (2.2GHz)
-RAM: 4GB
-Storage: 50GB
-Internet: 1Mbps
-System Update
-Before installing the rClient, ensure your system is up-to-date:
+# Rivalz AI Client CLI Guide
 
-bash
-Копіювати код
+## Hardware Requirements
+
+- **CPU:** 4 Cores (2.2GHz)
+- **RAM:** 4GB
+- **Storage:** 50GB
+- **Internet:** 1Mbps
+
+## System Update
+
+Before installing the `rClient`, ensure your system is up-to-date:
+
+```bash
 sudo apt update && sudo apt upgrade -y
 Installation and Setup
 Install the Rivalz Node CLI:
@@ -23,7 +26,7 @@ bash
 rivalz run
 Configuration:
 
-Submit your EVM Address
+Submit your EVM Address.
 CPU Core Number: Choose 50% of your total cores (e.g., if you have 4 cores, select 2 cores).
 RAM Size: Allocate 60% to 70% of your total RAM.
 Disk Type: Choose SSD.
