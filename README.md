@@ -1,3 +1,7 @@
+Вот финальный текст для файла `README.md`, который вы можете скопировать и вставить:
+
+---
+
 # Rivalz AI Client CLI Guide
 
 ## Hardware Requirements
@@ -13,53 +17,71 @@ Before installing the `rClient`, ensure your system is up-to-date:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-Installation and Setup
-Install the Rivalz Node CLI:
+```
 
-bash
-Копіювати код
-sudo npm install -g rivalz-node-cli
-Run the Rivalz Client:
+## Installation and Setup
 
-bash
-Копіювати код
-rivalz run
-Configuration:
+1. **Install the Rivalz Node CLI:**
 
-Submit your EVM Address.
-CPU Core Number: Choose 50% of your total cores (e.g., if you have 4 cores, select 2 cores).
-RAM Size: Allocate 60% to 70% of your total RAM.
-Disk Type: Choose SSD.
-Disk Serial Number: You can skip this field.
-Disk Size: Choose 300GB or less.
-Verification:
+   ```bash
+   sudo npm install -g rivalz-node-cli
+   ```
 
-After running the client for 6 to 12 hours, you can verify your address here:
+2. **Run the Rivalz Client:**
 
-Rivalz Verification
+   ```bash
+   rivalz run
+   ```
 
-Updating rClient
+3. **Configuration:**
+
+   - **Submit your EVM Address.**
+   - **CPU Core Number:** Choose 50% of your total cores (e.g., if you have 4 cores, select 2 cores).
+   - **RAM Size:** Allocate 60% to 70% of your total RAM.
+   - **Disk Type:** Choose SSD.
+   - **Disk Serial Number:** You can skip this field.
+   - **Disk Size:** Choose 300GB or less.
+
+4. **Verification:**
+
+   After running the client for 6 to 12 hours, you can verify your address here:
+
+   [Rivalz Verification](https://be.rivalz.ai/api-v1/orbit-db/verify-orbit-db/(YOUR-EVM-ADDRESS))
+
+## Updating rClient
+
 To update your rClient:
 
-bash
-Копіювати код
+```bash
 rivalz update
+```
+
 To check for available updates:
 
-bash
-Копіювати код
+```bash
 rivalz update-version
-Help Command
+```
+
+## Help Command
+
 For help and additional information:
 
-bash
-Копіювати код
+```bash
 rivalz -h
-Uninstallation
+```
+
+## Uninstallation
+
 To remove rClient:
 
-bash
-Копіювати код
+```bash
 rm -rf .rivalz
-Source
-For more details, refer to the Rivalz Documentation.
+```
+
+## Source
+
+For more details, refer to the [Rivalz Documentation](https://docs.rivalz.ai/testnet/testnet-guide/download-and-run-rclient/rclient-cli-guide).
+
+---
+
+Этот текст готов для вставки в ваш файл `README.md`.
