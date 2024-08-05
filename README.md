@@ -77,7 +77,3 @@ rm -rf .rivalz
 ## Source
 
 For more details, refer to the [Rivalz Documentation](https://docs.rivalz.ai/testnet/testnet-guide/download-and-run-rclient/rclient-cli-guide).
-
----
-
-Этот текст готов для вставки в ваш файл `README.md`.
